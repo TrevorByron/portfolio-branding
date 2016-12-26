@@ -1,0 +1,124 @@
+/* Imports */
+
+@import "partials/colors";
+@import "partials/books";
+@import "partials/breakpoints";
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+header {
+    text-align: center;
+    overflow: hidden;
+    z-index: 3;
+}
+
+.header-container {
+    padding: 10px 20px;
+    background: $headercolor;
+    width: 100%;
+    top: 0;
+    margin-bottom: 0;
+
+    z-index: 5;
+
+    .logo {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        img {
+            height: 450px;
+        }
+    }
+    nav {
+        display: inline-block;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 11px;
+        width: 100%;
+        ul {
+            margin: 0 auto;
+            padding: 0;
+            li {
+                display: inline-block;
+                padding: 0 50px;
+
+                a {
+                    color: grey;
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    border-bottom: 3px solid $lightgreen;
+                    padding-bottom: 5px;
+                }
+            }
+        }
+    }
+
+
+}
+
+/* Main */
+main {
+    clear: both;
+    width: 100%;
+    background-color: white;
+    margin-top: 0;
+    padding-bottom: 60px;
+    
+}
+
+
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    a {
+      padding: 0px;
+    }
+    .design-display {
+      width: 200px;
+      height: 200px;
+      text-align: center;
+      margin: 10px;
+      border-radius: 3px;
+      padding-top: 55px;
+      text-transform: uppercase;
+      box-shadow: 0px 1px 1px #333;
+      color: white;
+      transition: .5s;
+
+      h3{
+        font-size: 44px;
+            font-weight: 300;
+
+      }
+    }
+.web {
+  background-color: #F39354;
+}
+.mobile {
+ background-color: #57BB89;
+}
+.paper {
+  background-color: #FED587;
+}
+.wood {
+  background-color: #4C5365;
+}
+
+}
+.design-display:hover {
+background-color: #EFEDE7;
+color:#2C3E50;
+
+}
+
+
+/* Break points at bottom so that they override code above */
+
+@import "partials/breakpoints";

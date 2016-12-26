@@ -1,0 +1,110 @@
+/* Imports */
+.container {
+  padding: 25px 100px;
+  margin: 0px;
+  width: 100%; }
+
+.book-display {
+  width: 350px;
+  height: 350px;
+  margin: 20px 5px;
+  text-align: center;
+  transition: size 1s;
+  background: white;
+  transition: box-shadow .5s;
+  padding-top: 30px; }
+  .book-display h3 {
+    font-size: 40px; }
+  .book-display img {
+    width: 320px;
+    margin: 0px; }
+
+#mobile {
+  width: 150px; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+/* Header */
+header {
+  text-align: center;
+  overflow: hidden;
+  z-index: 3; }
+
+.header-container {
+  padding: 10px 20px;
+  background: white;
+  width: 100%;
+  top: 0;
+  margin-bottom: 0;
+  z-index: 5; }
+  .header-container .logo {
+    margin: 0 auto;
+    margin-bottom: 20px; }
+    .header-container .logo img {
+      height: 450px; }
+  .header-container nav {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 11px;
+    width: 100%; }
+    .header-container nav ul {
+      margin: 0 auto;
+      padding: 0; }
+      .header-container nav ul li {
+        display: inline-block;
+        padding: 0 50px; }
+        .header-container nav ul li a {
+          color: grey;
+          text-decoration: none; }
+        .header-container nav ul li a:hover {
+          border-bottom: 3px solid #45676f;
+          padding-bottom: 5px; }
+
+/* Main */
+main {
+  clear: both;
+  width: 100%;
+  background-color: white;
+  margin-top: 0;
+  padding-bottom: 60px; }
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 50px; }
+  .flex-box a {
+    padding: 0px; }
+  .flex-box .design-display {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
+    padding-top: 55px;
+    text-transform: uppercase;
+    box-shadow: 0px 1px 1px #333;
+    color: white;
+    transition: .5s; }
+    .flex-box .design-display h3 {
+      font-size: 44px;
+      font-weight: 300; }
+  .flex-box .web {
+    background-color: #F39354; }
+  .flex-box .mobile {
+    background-color: #57BB89; }
+  .flex-box .paper {
+    background-color: #FED587; }
+  .flex-box .wood {
+    background-color: #4C5365; }
+
+.design-display:hover {
+  background-color: #EFEDE7;
+  color: #2C3E50; }
+
+/* Break points at bottom so that they override code above */
+
+/*# sourceMappingURL=main.css.map */
