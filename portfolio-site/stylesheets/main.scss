@@ -67,7 +67,7 @@ main {
     background-color: white;
     margin-top: 0;
     padding-bottom: 60px;
-    
+
 }
 
 
@@ -79,7 +79,8 @@ main {
     margin-bottom: 50px;
     a {
       padding: 0px;
-    }
+    }}
+
     .design-display {
       width: 200px;
       height: 200px;
@@ -100,6 +101,7 @@ main {
     }
 .web {
   background-color: #F39354;
+
 }
 .mobile {
  background-color: #57BB89;
@@ -111,11 +113,36 @@ main {
   background-color: #4C5365;
 }
 
-}
+
 .design-display:hover {
 background-color: #EFEDE7;
 color:#2C3E50;
 
+}
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+  position: relative;
+  top: 600px;
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
 }
 
 
