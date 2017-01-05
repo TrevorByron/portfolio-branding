@@ -10,6 +10,7 @@ body{
   font-weight: 300;
 }
 
+
 /* Header */
 header {
     text-align: center;
@@ -90,13 +91,12 @@ main {
 
     .design-display {
       width: 200px;
-      height:30px;
+      height:100px;
       text-align: center;
       margin: 10px;
       border-radius: 3px;
-      padding-top: 3px;
+      padding-top: 35px;
       text-transform: uppercase;
-
       color: white;
 
 
@@ -132,7 +132,7 @@ border-bottom: 3px solid  #444B5D;
 border-bottom: none;
 position: relative;
 top: 2px;
-height: 27px;
+height: 98px;
 
 }
 .portfolio-container {
@@ -154,20 +154,26 @@ height: 27px;
 }
 
 .portfolio {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   background-color: #eee;
-  padding: 100px;
-
+  text-align: center;
+  .portfolio-header {
+      background-color: #57BB89;
+      color: white;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
   h1{
     width: 100%;
+    display: block;
+
   }
   .bucket {
     min-width: 400px;
-    max-width: 80%;
+    max-width: 70%;
+    margin: 0 auto;
     position: relative;
-    top: -350px;
+
     img {
       width: 100%;
     }
@@ -179,13 +185,13 @@ height: 27px;
 
   .description {
     min-width: 300px;
-    max-width: 40%;
+    max-width: 70%;
     position: relative;
-    top: -350px;
+    margin: 0 auto;
+    padding-bottom: 30px;
     border-bottom:  1px solid #999;
-
     p {
-      font-size: 22px;
+      font-size: 18px;
     }
   }
 }

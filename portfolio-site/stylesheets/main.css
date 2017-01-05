@@ -83,11 +83,11 @@ main {
 
 .design-display {
   width: 200px;
-  height: 30px;
+  height: 100px;
   text-align: center;
   margin: 10px;
   border-radius: 3px;
-  padding-top: 3px;
+  padding-top: 35px;
   text-transform: uppercase;
   color: white; }
   .design-display h3 {
@@ -115,7 +115,7 @@ main {
   border-bottom: none;
   position: relative;
   top: 2px;
-  height: 27px; }
+  height: 98px; }
 
 .portfolio-container {
   margin-top: 200px; }
@@ -132,30 +132,35 @@ main {
       width: 120%; }
 
 .portfolio {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   background-color: #eee;
-  padding: 100px; }
+  text-align: center; }
+  .portfolio .portfolio-header {
+    background-color: #57BB89;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px; }
   .portfolio h1 {
-    width: 100%; }
+    width: 100%;
+    display: block; }
   .portfolio .bucket {
     min-width: 400px;
-    max-width: 80%;
-    position: relative;
-    top: -350px; }
+    max-width: 70%;
+    margin: 0 auto;
+    position: relative; }
     .portfolio .bucket img {
       width: 100%; }
     .portfolio .bucket #proposal {
       top: 0px; }
   .portfolio .description {
     min-width: 300px;
-    max-width: 40%;
+    max-width: 70%;
     position: relative;
-    top: -350px;
+    margin: 0 auto;
+    padding-bottom: 30px;
     border-bottom: 1px solid #999; }
     .portfolio .description p {
-      font-size: 22px; }
+      font-size: 18px; }
 
 .parallax {
   perspective: 1px;
