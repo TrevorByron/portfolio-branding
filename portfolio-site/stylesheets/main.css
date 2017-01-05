@@ -30,38 +30,38 @@ body {
 header {
   text-align: center;
   overflow: hidden;
-  z-index: -1; }
-
-.header-container {
-  padding: 10px 0px;
-  background: white;
-  width: 100%;
-  top: 0;
-  margin-bottom: 0;
-  z-index: 5; }
-  .header-container .logo {
-    margin: 0 auto;
-    margin-bottom: 20px; }
-    .header-container .logo img {
-      height: 420px; }
-  .header-container nav {
-    display: inline-block;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 11px;
+  z-index: -1;
+  padding-top: 20px; }
+  header img {
     width: 100%; }
-    .header-container nav ul {
-      margin: 0 auto;
-      padding: 0; }
-      .header-container nav ul li {
-        display: inline-block;
-        padding: 0 50px; }
-        .header-container nav ul li a {
-          color: grey;
-          text-decoration: none; }
-        .header-container nav ul li a:hover {
-          border-bottom: 3px solid #45676f;
-          padding-bottom: 5px; }
+
+#criagslist-display {
+  position: relative;
+  top: -150px; }
+
+.header-container .logo {
+  margin: 0 auto;
+  margin-bottom: 20px; }
+  .header-container .logo img {
+    height: 420px; }
+.header-container nav {
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 11px;
+  width: 100%; }
+  .header-container nav ul {
+    margin: 0 auto;
+    padding: 0; }
+    .header-container nav ul li {
+      display: inline-block;
+      padding: 0 50px; }
+      .header-container nav ul li a {
+        color: grey;
+        text-decoration: none; }
+      .header-container nav ul li a:hover {
+        border-bottom: 3px solid #45676f;
+        padding-bottom: 5px; }
 
 /* Main */
 main {
@@ -141,16 +141,18 @@ main {
     width: 100%; }
   .portfolio .bucket {
     min-width: 400px;
-    max-width: 800px;
+    max-width: 80%;
     position: relative;
-    top: -450px; }
+    top: -350px; }
     .portfolio .bucket img {
       width: 100%; }
+    .portfolio .bucket #proposal {
+      top: 0px; }
   .portfolio .description {
     min-width: 300px;
-    max-width: 500px;
+    max-width: 40%;
     position: relative;
-    top: -450px;
+    top: -350px;
     border-bottom: 1px solid #999; }
     .portfolio .description p {
       font-size: 22px; }
