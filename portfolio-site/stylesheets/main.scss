@@ -6,7 +6,7 @@
 @import "bourbon/bourbon";
 
 body{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
 
@@ -20,6 +20,7 @@ header {
     img {
       width: 100%;
     }
+
 }
 #criagslist-display{
   position: relative;
@@ -53,8 +54,10 @@ header {
                 }
 
                 a:hover {
-                    border-bottom: 3px solid $lightgreen;
+                    border-bottom: 3px solid #4C5365;
                     padding-bottom: 5px;
+                    text-decoration: none;
+                    color: grey;
                 }
             }
         }
@@ -92,13 +95,13 @@ main {
 
     .design-display {
       width: 200px;
-      height:100px;
+      height:70px;
       text-align: center;
       margin: 10px;
-      border-radius: 3px;
       padding-top: 35px;
       text-transform: uppercase;
       color: white;
+      transition: .5s;
 
 
 
@@ -110,34 +113,36 @@ main {
       }
     }
 .web {
-  background-color: #F39354;
+
+  color: #333;
    border-bottom: 3px solid #d67f48;
 
 }
 .mobile {
- background-color: #57BB89;
+
+ color: #333;
  border-bottom: 3px solid #45936c;
 }
 .paper {
-  background-color: #FED587;
+
+  color: #333;
   border-bottom: 3px solid #dbb46d;
 }
 .wood {
-  background-color: #4C5365;
+
+  color: #333;
 border-bottom: 3px solid  #444B5D;
 }
 
 
 .design-display:hover {
 
-border-bottom: none;
-position: relative;
-top: 2px;
-height: 98px;
+color: #dbb46d;
+border-bottom: 3px solid white;
 
 }
 .portfolio-container {
-  margin-top: 200px;
+  // margin-top: 200px;
 .angle-parent{
   overflow: hidden;
   position: relative;
@@ -155,9 +160,50 @@ height: 98px;
 }
 
 .portfolio {
+ a {
+   text-decoration: none;
+ }
   justify-content: center;
   background-color: #eee;
   text-align: center;
+  .mobile-display {
+    background-color: #57BB89;
+    padding-top: 20px;
+    img {
+      min-width: 380px;
+      max-width: 500px;
+      position: relative;
+      top: 19px;
+    }
+
+    h1 {
+      color: white;
+      font-weight: 300;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    h2 {
+      color: white;
+      font-weight: 300;
+    }
+  }
+  .web-display {
+    background-color: #E2BE78;
+    padding-top: 20px;
+    img {
+      min-width: 200px;
+      max-width: 800px;
+      position: relative;
+      top: 18px;
+    }
+  }
+  #Good-Reads {
+    background-color: #4C5365;
+  }
+  .flex-box{
+    display: flex;
+    flex-wrap: wrap;
+  }
   .portfolio-header {
       background-color: #57BB89;
       color: white;
@@ -170,14 +216,8 @@ height: 98px;
 
   }
   .bucket {
-    min-width: 380px;
-    max-width: 70%;
     margin: 0 auto;
     position: relative;
-
-    img {
-      width: 100%;
-    }
     #proposal {
       top: 0px;
 
@@ -186,33 +226,20 @@ height: 98px;
 
   .description {
     min-width: 300px;
-    max-width: 70%;
+    max-width: 50%;
     position: relative;
     margin: 0 auto;
-    padding-bottom: 30px;
-    border-bottom:  1px solid #999;
+    padding-bottom: 100px;
+    padding-top: 40px;
+    text-align: center;
     p {
       font-size: 18px;
     }
+      .design-display{
+      margin: 0 auto;
+    }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .parallax {
@@ -232,7 +259,7 @@ height: 98px;
 .parallax__layer--base {
   transform: translateZ(0);
   position: relative;
-  top: 650px;
+  // top: 650px;
 
 
 }
