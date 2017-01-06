@@ -145,7 +145,7 @@ main {
     width: 100%;
     display: block; }
   .portfolio .bucket {
-    min-width: 400px;
+    min-width: 380px;
     max-width: 70%;
     margin: 0 auto;
     position: relative; }
