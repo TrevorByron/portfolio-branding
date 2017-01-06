@@ -31,7 +31,7 @@ header {
   text-align: center;
   overflow: hidden;
   z-index: -1;
-  padding-top: 20px; }
+  padding-top: 60px; }
   header img {
     width: 100%; }
 
@@ -39,27 +39,28 @@ header {
   position: relative;
   top: -150px; }
 
-.header-container .logo {
+.logo {
   margin: 0 auto;
   margin-bottom: 20px; }
-  .header-container .logo img {
+  .logo img {
     height: 420px; }
-.header-container nav {
+
+nav {
   display: inline-block;
   text-align: center;
   font-size: 15px;
   margin-top: 11px;
   width: 100%; }
-  .header-container nav ul {
+  nav ul {
     margin: 0 auto;
     padding: 0; }
-    .header-container nav ul li {
+    nav ul li {
       display: inline-block;
       padding: 0 50px; }
-      .header-container nav ul li a {
+      nav ul li a {
         color: grey;
         text-decoration: none; }
-      .header-container nav ul li a:hover {
+      nav ul li a:hover {
         border-bottom: 3px solid #45676f;
         padding-bottom: 5px; }
 
