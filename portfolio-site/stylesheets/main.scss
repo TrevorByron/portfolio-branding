@@ -172,7 +172,9 @@ border-bottom: 3px solid white;
     padding-top: 20px;
     img {
       min-width: 380px;
+      width: 80%;
       max-width: 600px;
+
       position: relative;
       top:  22px;
         width: 100%;
@@ -195,7 +197,8 @@ border-bottom: 3px solid white;
     display: flex;
     width: 100%;
     img {
-      min-width: 200px;
+      min-width: 300px;
+      width: 95%;
       max-width: 800px;
       position: relative;
       top: 18px;
@@ -236,7 +239,8 @@ border-bottom: 3px solid white;
 
   .description {
     min-width: 300px;
-    max-width: 50%;
+    width: 80%;
+    max-width: 600px;
     position: relative;
     margin: 0 auto;
     padding-bottom: 100px;
