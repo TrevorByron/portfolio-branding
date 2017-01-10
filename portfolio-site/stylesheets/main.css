@@ -44,7 +44,8 @@ header {
   margin: 0 auto;
   margin-bottom: 20px; }
   .logo img {
-    height: 420px; }
+    max-height: 420px;
+    width: 80%; }
 
 nav {
   display: inline-block;
