@@ -44,7 +44,7 @@ header {
   margin: 0 auto;
   margin-bottom: 20px; }
   .logo img {
-    max-height: 420px;
+    max-height: 400px;
     width: 80%; }
 
 nav {
@@ -143,7 +143,7 @@ main {
     padding-top: 20px; }
     .portfolio .mobile-display img {
       width: 80%;
-      max-width: 600px;
+      max-width: 500px;
       position: relative;
       top: 22px;
       width: 100%; }
@@ -162,7 +162,7 @@ main {
     width: 100%; }
     .portfolio .web-display img {
       width: 95%;
-      max-width: 800px;
+      max-width: 700px;
       position: relative;
       top: 18px; }
   .portfolio #Good-Reads {
@@ -181,7 +181,7 @@ main {
   .portfolio h1 {
     width: 100%;
     display: block;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 300; }
   .portfolio .bucket {
     margin: 0 auto;
@@ -199,9 +199,48 @@ main {
     text-align: left; }
     .portfolio .description p {
       margin-top: 20px;
-      font-size: 20px; }
+      font-size: 18px; }
     .portfolio .description .design-display {
       margin: 0 auto; }
+
+.about {
+  padding-top: 60px;
+  text-align: center; }
+  .about h4 {
+    font-weight: 100;
+    font-style: italic; }
+  .about .profile-picture img {
+    width: 250px;
+    border-radius: 100%; }
+  .about .card-holder {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    max-width: 950px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 60px; }
+    .about .card-holder .card {
+      width: 20%;
+      min-width: 200px;
+      margin: 15px;
+      text-align: center; }
+      .about .card-holder .card img {
+        width: 30px; }
+      .about .card-holder .card h3 {
+        font-size: 18px;
+        text-transform: uppercase; }
+  .about .background {
+    background-color: #EFEDE7;
+    padding: 20px; }
+    .about .background .about-content {
+      width: 90%;
+      max-width: 900px;
+      padding: 10px;
+      margin: 0 auto;
+      text-align: left;
+      padding-top: 30px;
+      line-height: 1.6; }
 
 .parallax {
   perspective: 1px;

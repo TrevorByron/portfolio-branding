@@ -33,7 +33,7 @@ header {
         margin: 0 auto;
         margin-bottom: 20px;
         img {
-            max-height: 420px;
+            max-height: 400px;
             width: 80%;
         }
     }
@@ -104,10 +104,6 @@ main {
       text-transform: uppercase;
       color: white;
       transition: .5s;
-       
-
-
-
       h3{
         font-size: 20px;
             font-weight: 300;
@@ -175,7 +171,7 @@ border-bottom: 3px solid white;
     img {
 
       width: 80%;
-      max-width: 600px;
+      max-width: 500px;
 
       position: relative;
       top:  22px;
@@ -201,7 +197,7 @@ border-bottom: 3px solid white;
     img {
 
       width: 95%;
-      max-width: 800px;
+      max-width: 700px;
       position: relative;
       top: 18px;
     }
@@ -226,7 +222,7 @@ border-bottom: 3px solid white;
   h1{
     width: 100%;
     display: block;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 300;
 
   }
@@ -250,7 +246,7 @@ border-bottom: 3px solid white;
     text-align: left;
     p {
       margin-top: 20px;
-      font-size: 20px;
+      font-size: 18px;
     }
       .design-display{
       margin: 0 auto;
@@ -258,6 +254,55 @@ border-bottom: 3px solid white;
   }
 }
 
+.about {
+  padding-top: 60px;
+  text-align: center;
+  h4 {
+    font-weight: 100;
+    font-style: italic;
+  }
+.profile-picture {
+  img {
+    width: 250px;
+    border-radius: 100%;
+  }
+}
+  .card-holder {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    max-width: 950px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    .card {
+      width: 20%;
+      min-width: 200px;
+    margin: 15px;
+      text-align: center;
+      img {
+        width: 30px;
+      }
+      h3 {
+        font-size: 18px;
+        text-transform: uppercase;
+      }
+    }
+  }
+  .background {
+    background-color: #EFEDE7;
+    padding: 20px;
+    .about-content {
+      width: 90%;
+      max-width: 900px;
+      padding: 10px;
+      margin: 0 auto;
+      text-align: left;
+      padding-top: 30px;
+      line-height: 1.6;
+    }
+  }
+}
 
 .parallax {
   perspective: 1px;
