@@ -334,10 +334,6 @@ main {
     .about .card h3 {
       font-size: 18px;
       text-transform: uppercase; }
-  .about .Process {
-    background-color: #EFEDE7;
-    padding: 20px;
-    padding-bottom: 60px; }
   .about .background {
     margin-top: 100px; }
     .about .background .map {
