@@ -1,0 +1,139 @@
+@import "colors";
+
+.hero {
+  background: url("../images/CL-display.png") no-repeat;
+  background-size: contain;
+  height: 800px;
+  z-index: -4;
+ .project-info {
+   background-color: rgba(254, 213, 134, .85);
+   height: 100%;
+   color: white;
+   padding-top: 250px;
+   h1 {
+     font-size: 60px;
+     text-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+     text-transform: uppercase;
+     font-weight: 500;
+   }
+   p {
+     font-size: 20px;
+     text-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+   }
+ }
+}
+.angle-parent{
+  overflow: hidden;
+  position: relative;
+  top: -170px;
+
+  .angle {
+    height: 200px;
+    background-color: white;
+    transform: rotate(4deg);
+    position: relative;
+    top: 100px;
+    width: 120%;
+    left: -10%;
+  }
+}
+.project-process {
+  background-color: white;
+  .info {
+    position: relative;
+    top: -250px;
+
+  }
+  .part-1 {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    padding: 5% 10% 0px 10%;
+
+  }
+  .words {
+    width: 40%;
+    min-width: 250px;
+
+  h1 {
+  text-align: right;
+}
+}
+.photos {
+
+  width: 40%;
+
+    min-width: 300px;
+  img {
+    position: relative;
+ margin-bottom: 10px;
+    width: 100%;
+    position: relative;
+    top: 50px;
+
+  }
+}
+.process {
+  background-color: $offwhite;
+  width: 100%;
+}
+}
+.part-2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $offwhite;
+  overflow: hidden;
+  padding: 5% 10% 0px 10%;
+  justify-content: space-around;
+  text-align: left;
+
+}
+.part-3 {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 100%;
+  color: white;
+  padding: 5% 10% 0px 10%;
+  background-color: $blue;
+}
+
+
+
+
+
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+  position: relative;
+  top: 700px;
+
+
+}
+
+.parallax__layer--back {
+  transform: translateZ(-1px);
+
+}
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+}

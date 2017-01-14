@@ -4,6 +4,7 @@
 @import "partials/books";
 @import "partials/breakpoints";
 @import "bourbon/bourbon";
+@import "partials/CL";
 
 body{
   font-family: 'Roboto', sans-serif;
@@ -142,20 +143,7 @@ border-bottom: 3px solid white;
 }
 .portfolio-container {
   // margin-top: 200px;
-.angle-parent{
-  overflow: hidden;
-  position: relative;
-  top: 3px;
-  .angle {
-    height: 200px;
-    background-color: #eee;
-    transform: rotate(-4deg);
-    position: relative;
-    top: 100px;
 
-    width: 120%;
-  }
-}
 }
 
 .portfolio {
@@ -174,7 +162,7 @@ border-bottom: 3px solid white;
       max-width: 500px;
 
       position: relative;
-      top:  22px;
+      top:  19px;
         width: 100%;
     }
 
@@ -199,7 +187,7 @@ border-bottom: 3px solid white;
       width: 95%;
       max-width: 700px;
       position: relative;
-      top: 18px;
+      top: 14px;
     }
   }
   #Good-Reads {
@@ -256,6 +244,7 @@ border-bottom: 3px solid white;
 
 .about {
   padding-top: 60px;
+  padding-bottom: 100px;
   text-align: center;
   h4 {
     font-weight: 100;
@@ -275,21 +264,40 @@ border-bottom: 3px solid white;
     margin: 0 auto;
     flex-wrap: wrap;
     margin-bottom: 60px;
+  }
     .card {
       width: 20%;
       min-width: 200px;
     margin: 15px;
       text-align: center;
+      .top-icon {
+        height: 40px;
       img {
         width: 30px;
       }
+    }
       h3 {
         font-size: 18px;
         text-transform: uppercase;
       }
-    }
   }
+
+
   .background {
+    h1 , h4 {
+    
+    }
+
+    .map {
+      margin: 0 auto;
+      position: relative;
+      top: -100px;
+      margin-bottom: -200px;
+      width: 90%;
+      img {
+        width: 100%;
+      }
+    }
     background-color: #EFEDE7;
     padding: 20px;
     .about-content {
@@ -297,41 +305,16 @@ border-bottom: 3px solid white;
       max-width: 900px;
       padding: 10px;
       margin: 0 auto;
-      text-align: left;
+      text-align: center;
       padding-top: 30px;
       line-height: 1.6;
     }
   }
 }
 
-.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  text-align: center;
-}
-.parallax__layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-.parallax__layer--base {
-  transform: translateZ(0);
-  position: relative;
-  // top: 650px;
 
 
-}
 
-.parallax__layer--back {
-  transform: translateZ(-1px);
-}
-.parallax__layer--back {
-  transform: translateZ(-1px) scale(2);
-}
 
 
 /* Break points at bottom so that they override code above */
