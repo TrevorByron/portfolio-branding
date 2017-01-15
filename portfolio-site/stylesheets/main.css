@@ -171,7 +171,7 @@ nav {
     padding: 0; }
     nav ul li {
       display: inline-block;
-      padding: 0 50px; }
+      padding: 0 30px; }
       nav ul li a {
         color: grey;
         text-decoration: none; }
@@ -181,6 +181,22 @@ nav {
         text-decoration: none;
         color: grey; }
 
+.arrow {
+  padding-top: 50px;
+  height: 55px;
+  width: 55px;
+  font-size: 40px;
+  color: #333;
+  animation: bounce 2s infinite;
+  margin: 0 auto; }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  60% {
+    transform: translateY(-15px); } }
 .second-nav {
   position: fixed;
   top: 0px;
@@ -348,13 +364,13 @@ main {
 .background {
   margin-top: 100px; }
   .background .map {
-    z-index: 1;
     margin: 0 auto;
     position: relative;
     top: -80px;
     margin-bottom: -300px;
     width: 90%;
-    max-width: 1100px; }
+    max-width: 1100px;
+    z-index: -1; }
     .background .map img {
       width: 100%; }
   .background .about-content {

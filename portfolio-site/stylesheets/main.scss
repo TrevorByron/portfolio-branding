@@ -49,7 +49,7 @@ header {
             padding: 0;
             li {
                 display: inline-block;
-                padding: 0 50px;
+                padding: 0 30px;
 
                 a {
                     color: grey;
@@ -66,6 +66,28 @@ header {
         }
     }
 
+    .arrow {
+    padding-top: 50px;
+      height: 55px;
+      width: 55px;
+      font-size: 40px;
+      color: #333;
+      animation: bounce 2s infinite;
+      margin: 0 auto;
+    }
+
+    @keyframes bounce {
+
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+    }
 
 .second-nav {
   position: fixed;
@@ -301,17 +323,19 @@ border-bottom: 3px solid white;
     margin-top: 100px;
 
     .map {
-      z-index: 1;
+
       margin: 0 auto;
       position: relative;
       top: -80px;
       margin-bottom: -300px;
       width: 90%;
       max-width: 1100px;
+        z-index: -1;
 
 
       img {
         width: 100%;
+
       }
     }
 
@@ -365,7 +389,7 @@ border-bottom: 3px solid white;
     }
     .fa-hand-peace-o {
       font-size: 70px;
-    
+
     }
     .fa-hand-peace-o:hover{
       color: $yellow;
