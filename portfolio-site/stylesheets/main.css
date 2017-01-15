@@ -22,6 +22,9 @@
 #mobile {
   width: 150px; }
 
+@media (max-width: 670px) {
+  .map {
+    display: none; } }
 .container {
   padding: 25px 100px;
   margin: 0px;
@@ -415,5 +418,8 @@ main {
     color: #FED586; }
 
 /* Break points at bottom so that they override code above */
+@media (max-width: 670px) {
+  .map {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
