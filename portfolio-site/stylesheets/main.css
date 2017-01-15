@@ -82,6 +82,9 @@
   .project-process .words {
     width: 40%;
     min-width: 250px; }
+    .project-process .words .icon-top img {
+      height: 30px;
+      margin-top: 30px; }
     .project-process .words h1 {
       text-align: right; }
   .project-process .photos {
@@ -91,7 +94,8 @@
       position: relative;
       margin-bottom: 10px;
       width: 100%;
-      box-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2); }
+      box-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2);
+      z-index: 1; }
   .project-process .process {
     background-color: #EFEDE7;
     width: 100%; }
@@ -101,7 +105,7 @@
   flex-wrap: wrap;
   background-color: #EFEDE7;
   overflow: hidden;
-  padding: 5% 10% 0px 10%;
+  padding: 60px 10% 60px 10%;
   justify-content: space-around;
   text-align: left; }
 
@@ -115,6 +119,25 @@
   color: white;
   padding: 5% 10% 0px 10%;
   background-color: #4C5365; }
+
+.bottom-angle-parent {
+  z-index: -1; }
+  .bottom-angle-parent .bottom-angle {
+    width: 120%;
+    transform: rotate(-4deg);
+    height: 200px;
+    background-color: #4C5365;
+    position: relative;
+    left: -10%;
+    top: -100px; }
+
+.end {
+  margin: 0 auto; }
+  .end .design-display {
+    margin: 0 auto; }
+  .end a {
+    text-decoration: none;
+    color: #333; }
 
 .parallax {
   perspective: 1px;
