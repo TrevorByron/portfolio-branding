@@ -22,8 +22,8 @@ header {
     img {
       width: 100%;
     }
-
 }
+
 #criagslist-display{
   position: relative;
   top: -150px;
@@ -67,7 +67,16 @@ header {
     }
 
 
+.second-nav {
+  position: fixed;
+  top: 0px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, .98);
+  margin-top: 0;
+  z-index: 100;
 
+
+}
 
 
 /* Main */
@@ -243,20 +252,22 @@ border-bottom: 3px solid white;
 }
 
 .about {
-
   padding-top: 60px;
   padding-bottom: 100px;
   text-align: center;
   h4 {
     font-weight: 100;
     font-style: italic;
-  }
-.profile-picture {
-  img {
+     }
+  .profile-picture {
+    img {
     width: 250px;
     border-radius: 100%;
+    }
   }
 }
+
+
   .card-holder {
     padding-top: 30px;
     display: flex;
@@ -265,12 +276,13 @@ border-bottom: 3px solid white;
     margin: 0 auto;
     flex-wrap: wrap;
     margin-bottom: 60px;
-  }
+
     .card {
       width: 20%;
       min-width: 200px;
     margin: 15px;
       text-align: center;
+      transition: 1s;
       .top-icon {
         height: 40px;
       img {
@@ -282,7 +294,7 @@ border-bottom: 3px solid white;
         text-transform: uppercase;
       }
   }
-
+  }
 
 
   .background {
@@ -315,7 +327,52 @@ border-bottom: 3px solid white;
       line-height: 1.6;
     }
   }
-}
+
+  .Contact {
+    text-align: center;
+    padding: 50px 10%;
+    background-color: $green;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+    h1{
+    }
+    h4 {
+      font-weight: 300;
+      font-style: italic;
+      margin-bottom: 30px;
+    }
+    h5 {
+      color: white;
+      font-size: 70px;
+      padding: 50px 10%;
+      transition: 2s;
+      font-weight: 700;
+    }
+    h5:hover {
+      color: white;
+
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      transition: .5s;
+    }
+    a:hover {
+      color: $green;
+    }
+    .fa {
+      font-size: 40px;
+    }
+    .fa-hand-peace-o {
+      font-size: 70px;
+    
+    }
+    .fa-hand-peace-o:hover{
+      color: $yellow;
+    }
+
+  }
+
 
 
 
