@@ -52,6 +52,15 @@
     overflow: hidden;
     width: 100%;
     padding: 5% 10% 0px 10%;
+    .photos {
+      img {
+        position: relative;
+        top: 20px;
+        box-shadow: none;
+
+
+      }
+    }
 
   }
   .words {
@@ -71,8 +80,8 @@
     position: relative;
  margin-bottom: 10px;
     width: 100%;
-    position: relative;
-    top: 50px;
+    box-shadow: 1px 1px 1px rgba(033, 033, 033, .2);
+
 
   }
 }
@@ -89,7 +98,11 @@
   padding: 5% 10% 0px 10%;
   justify-content: space-around;
   text-align: left;
+  .photos {
+  img {
 
+  }
+}
 }
 .part-3 {
   text-align: left;

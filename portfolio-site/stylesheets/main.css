@@ -75,6 +75,10 @@
     overflow: hidden;
     width: 100%;
     padding: 5% 10% 0px 10%; }
+    .project-process .part-1 .photos img {
+      position: relative;
+      top: 20px;
+      box-shadow: none; }
   .project-process .words {
     width: 40%;
     min-width: 250px; }
@@ -87,8 +91,7 @@
       position: relative;
       margin-bottom: 10px;
       width: 100%;
-      position: relative;
-      top: 50px; }
+      box-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2); }
   .project-process .process {
     background-color: #EFEDE7;
     width: 100%; }
@@ -201,6 +204,7 @@ nav {
   60% {
     transform: translateY(-15px); } }
 .second-nav {
+  visibility: hidden;
   position: fixed;
   top: 0px;
   padding: 10px;
