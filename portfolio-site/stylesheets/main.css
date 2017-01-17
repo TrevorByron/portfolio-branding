@@ -77,19 +77,25 @@
     overflow: hidden;
     width: 100%;
     padding: 5% 10% 0px 10%; }
+    .project-process .part-1 .design-display {
+      margin: 0 auto; }
     .project-process .part-1 .photos img {
       position: relative;
       top: 20px;
       box-shadow: none; }
   .project-process .words {
-    width: 40%;
-    min-width: 250px; }
+    width: 50%;
+    min-width: 300px; }
+    .project-process .words a {
+      text-decoration: none;
+      color: #333; }
     .project-process .words .icon-top img {
       height: 30px;
       margin-top: 30px; }
     .project-process .words h1 {
       text-align: right; }
   .project-process .photos {
+    text-align: center;
     width: 40%;
     min-width: 300px; }
     .project-process .photos img {
@@ -107,9 +113,17 @@
   flex-wrap: wrap;
   background-color: #EFEDE7;
   overflow: hidden;
-  padding: 60px 10% 60px 10%;
+  padding: 60px 1% 60px 1%;
   justify-content: space-around;
   text-align: left; }
+  .part-2 .proposal {
+    text-align: center; }
+    .part-2 .proposal img {
+      width: 98%;
+      max-width: 700px; }
+
+#cl-part-3 {
+  background-color: #EFEDE7; }
 
 .part-3 {
   text-align: right;
@@ -121,6 +135,17 @@
   color: white;
   padding: 5% 10% 0px 10%;
   background-color: #4C5365; }
+  .part-3 .cl-stages {
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    justify-content: center; }
+    .part-3 .cl-stages img {
+      border-radius: 20px; }
+
+#cl-bottom-angle {
+  background-color: #EFEDE7; }
 
 .bottom-angle-parent {
   z-index: -1; }
@@ -173,6 +198,24 @@
 
 #bb-project-info {
   background-color: rgba(87, 187, 137, 0.85); }
+
+video {
+  margin: 0 auto; }
+
+.part-3 img {
+  height: 500px;
+  padding: 10px;
+  z-index: 1; }
+
+#bb {
+  background-color: #FED586; }
+
+#bb-angle {
+  background-color: #FED586; }
+
+.phone {
+  text-align: center;
+  z-index: 1; }
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -267,7 +310,6 @@ main {
   width: 200px;
   height: 70px;
   text-align: center;
-  margin: 10px;
   padding-top: 35px;
   text-transform: uppercase;
   color: white;
@@ -387,19 +429,20 @@ main {
   margin: 0 auto;
   flex-wrap: wrap;
   margin-bottom: 60px; }
-  .card-holder .card {
-    width: 20%;
-    min-width: 200px;
-    margin: 15px;
-    text-align: center;
-    transition: 1s; }
-    .card-holder .card .top-icon {
-      height: 40px; }
-      .card-holder .card .top-icon img {
-        width: 30px; }
-    .card-holder .card h3 {
-      font-size: 18px;
-      text-transform: uppercase; }
+
+.card {
+  width: 20%;
+  min-width: 200px;
+  margin: 15px;
+  text-align: center;
+  transition: 1s; }
+  .card .top-icon {
+    height: 40px; }
+    .card .top-icon img {
+      width: 30px; }
+  .card h3 {
+    font-size: 18px;
+    text-transform: uppercase; }
 
 .background {
   margin-top: 100px; }

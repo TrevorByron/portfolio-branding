@@ -54,6 +54,9 @@
     overflow: hidden;
     width: 100%;
     padding: 5% 10% 0px 10%;
+    .design-display{
+      margin: 0 auto;
+    }
     .photos {
       img {
         position: relative;
@@ -66,8 +69,12 @@
 
   }
   .words {
-    width: 40%;
-    min-width: 250px;
+    width: 50%;
+    min-width: 300px;
+    a {
+      text-decoration: none;
+      color: #333;
+    }
     .icon-top{
       img{
         height: 30px;
@@ -80,9 +87,8 @@
 }
 }
 .photos {
-
+text-align: center;
   width: 40%;
-
     min-width: 300px;
   img {
     position: relative;
@@ -104,14 +110,24 @@
   flex-wrap: wrap;
   background-color: $offwhite;
   overflow: hidden;
-  padding: 60px 10% 60px 10%;
+  padding: 60px 1% 60px 1%;
   justify-content: space-around;
   text-align: left;
+  .proposal {
+    text-align: center;
+    img{
+      width: 98%;
+      max-width: 700px;
+    }
+  }
   .photos {
   img {
 
   }
 }
+}
+#cl-part-3 {
+  background-color: $offwhite;
 }
 .part-3 {
   text-align: right;
@@ -123,7 +139,25 @@
   color: white;
   padding: 5% 10% 0px 10%;
   background-color: $blue;
+  .cl-stages {
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    justify-content: center;
 
+
+    img {
+      border-radius: 20px;
+
+
+    }
+  }
+
+
+}
+#cl-bottom-angle {
+  background-color: $offwhite;
 }
 .bottom-angle-parent {
   z-index: -1;
