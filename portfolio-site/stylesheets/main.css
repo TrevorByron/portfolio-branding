@@ -47,7 +47,9 @@
       font-weight: 500; }
     .hero .project-info p {
       font-size: 20px;
-      text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2); }
+      text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2);
+      max-width: 700px;
+      margin: 0 auto; }
 
 .angle-parent {
   overflow: hidden;
@@ -110,7 +112,7 @@
   text-align: left; }
 
 .part-3 {
-  text-align: left;
+  text-align: right;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -163,6 +165,14 @@
 
 .parallax__layer--back {
   transform: translateZ(-1px) scale(2); }
+
+#bb-hero {
+  background: url("../images/Bucket-budget-display.png") no-repeat;
+  background-size: contain;
+  background-position: top; }
+
+#bb-project-info {
+  background-color: rgba(87, 187, 137, 0.85); }
 
 body {
   font-family: 'Roboto', sans-serif;
