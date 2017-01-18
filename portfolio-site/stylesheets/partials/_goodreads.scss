@@ -1,0 +1,54 @@
+#gr-hero {
+
+
+  background: url("../images/Good-Reads-display.png") no-repeat;
+  background-size: contain;
+  background-position:top;
+
+}
+
+#gr-project-info{
+     background-color: rgba(76, 83, 101, .85);
+}
+#no-shadow {
+  box-shadow: none;
+}
+#gr-part-2 {
+  padding: 60px 10%;
+
+}
+#gr-photos {
+  margin-top: 40px;
+
+}
+#gr-words {
+  margin: 100px 10px;
+}
+#gr-part-3 {
+  .mockup-holder {
+  max-width: 900px;
+  width: 98%;
+  img{
+    border-radius: 15px;
+
+
+  }
+}
+}
+
+.sketches {
+  width: 48%;
+  min-width: 300px;
+  img{
+    width: 100%;
+    border-radius: 15px;
+    margin: 10px;
+  }
+}
+.icon {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+
+
+}
