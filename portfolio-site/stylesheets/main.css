@@ -256,6 +256,29 @@ video {
   text-align: center;
   padding-bottom: 20px; }
 
+#tc-hero {
+  background: url("../images/Team-captain-display.png") no-repeat;
+  background-size: contain;
+  background-position: top; }
+
+#tc-project-info {
+  background-color: rgba(254, 213, 134, 0.85);
+  height: 100%;
+  color: white;
+  padding-top: 250px; }
+
+#tc-part-2 {
+  padding: 60px 10% 60px 10%; }
+  #tc-part-2 video {
+    box-shadow: 1px 2px 6px rgba(33, 33, 33, 0.5); }
+
+#tc-part-3 .photos {
+  z-index: 2; }
+#tc-part-3 .words {
+  text-align: left; }
+#tc-part-3 video {
+  box-shadow: 1px 2px 6px rgba(33, 33, 33, 0.2); }
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300; }
