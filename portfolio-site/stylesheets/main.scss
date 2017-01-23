@@ -96,10 +96,40 @@ header {
   visibility:hidden;
   position: fixed;
   top: 0px;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, .98);
+  padding: 15px;
+  overflow: hidden;
+    background-color: rgba(68, 68, 68, .98);
   margin-top: 0;
-  z-index: 100;
+  z-index: 1;
+  img {
+    height:25px;
+    float: left;
+  }
+
+  ul {
+    margin-top: 3px;
+float: right;
+        li {
+
+
+
+            a {
+                color: white;
+                text-decoration: none;
+
+                padding-bottom: 5px;
+            }
+
+            a:hover {
+                border-bottom: 2px solid white;
+                padding-bottom: 5px;
+                text-decoration: none;
+                color: white;
+
+            }
+        }
+    }
+
 
 
 }

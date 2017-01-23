@@ -345,10 +345,26 @@ nav {
   visibility: hidden;
   position: fixed;
   top: 0px;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.98);
+  padding: 15px;
+  overflow: hidden;
+  background-color: rgba(68, 68, 68, 0.98);
   margin-top: 0;
-  z-index: 100; }
+  z-index: 1; }
+  .second-nav img {
+    height: 25px;
+    float: left; }
+  .second-nav ul {
+    margin-top: 3px;
+    float: right; }
+    .second-nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding-bottom: 5px; }
+    .second-nav ul li a:hover {
+      border-bottom: 2px solid white;
+      padding-bottom: 5px;
+      text-decoration: none;
+      color: white; }
 
 /* Main */
 main {
