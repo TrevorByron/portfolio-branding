@@ -66,6 +66,8 @@
 
 .project-process {
   background-color: white; }
+  .project-process #cl-design-display h3 {
+    font-size: 18px; }
   .project-process .info {
     position: relative;
     top: -250px; }
@@ -139,10 +141,11 @@
     z-index: 1;
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 1000px;
     justify-content: center; }
     .part-3 .cl-stages img {
-      border-radius: 20px; }
+      border-radius: 3px;
+      height: 500px; }
 
 #cl-bottom-angle {
   background-color: #EFEDE7; }
@@ -161,7 +164,8 @@
 .end {
   margin: 0 auto; }
   .end .design-display {
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 60px; }
   .end a {
     text-decoration: none;
     color: #333; }
@@ -204,7 +208,7 @@ video {
 
 .part-3 img {
   height: 500px;
-  padding: 10px;
+  margin: 10px;
   z-index: 1; }
 
 #bb {
@@ -229,13 +233,13 @@ video {
   box-shadow: none; }
 
 #gr-part-2 {
-  padding: 60px 10%; }
+  padding: 90px 10%; }
 
 #gr-photos {
   margin-top: 40px; }
 
 #gr-words {
-  margin: 100px 10px; }
+  margin: 100px 10px 40px 10px; }
 
 #gr-part-3 .mockup-holder {
   max-width: 900px;
@@ -243,13 +247,37 @@ video {
   #gr-part-3 .mockup-holder img {
     border-radius: 15px; }
 
+.view-site {
+  background-color: #57BB89;
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  transition: .3s;
+  border-radius: 5px; }
+  .view-site h3 {
+    margin: 0px; }
+
+.view-site:hover {
+  transform: scale(1.1); }
+
+.centered {
+  min-width: 300px;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto; }
+  .centered #no-shadow {
+    width: 100%; }
+  .centered .in-centered {
+    width: 100%; }
+
 .sketches {
   width: 48%;
-  min-width: 300px; }
+  min-width: 300px;
+  margin: 10px 10px 40px 10px; }
   .sketches img {
     width: 100%;
-    border-radius: 15px;
-    margin: 10px; }
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgba(33, 33, 33, 0.1); }
 
 .icon {
   width: 100%;
@@ -282,6 +310,10 @@ video {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300; }
+
+p {
+  font-size: 14px;
+  line-height: 1.5; }
 
 /* Header */
 header {
@@ -566,14 +598,19 @@ main {
     color: white;
     text-decoration: none;
     transition: .5s; }
-  .Contact a:hover {
-    color: #57BB89; }
+  .Contact .fa:hover {
+    transform: scale(1.2); }
   .Contact .fa {
-    font-size: 40px; }
+    font-size: 40px;
+    transition: .5s; }
   .Contact .fa-hand-peace-o {
     font-size: 70px; }
-  .Contact .fa-hand-peace-o:hover {
-    color: #FED586; }
+
+.bg-offwhite {
+  background-color: #EFEDE7;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  margin-bottom: -200px; }
 
 /* Break points at bottom so that they override code above */
 @media (max-width: 670px) {

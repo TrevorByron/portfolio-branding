@@ -15,7 +15,7 @@ sr.reveal('.boo', {duration: 1000, scale: 1, origin: 'top',distance: '30px',});
 
 $(function(){
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 479) {
+        if ($(this).scrollTop() > 650) {
             $('.second-nav').css('visibility','visible');
             $('.second-nav').fadeIn('fast');
         }

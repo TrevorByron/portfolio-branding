@@ -13,7 +13,11 @@ body{
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
 }
+p {
+ font-size: 14px;
+ line-height: 1.5;
 
+}
 
 /* Header */
 header {
@@ -415,20 +419,25 @@ border-bottom: 3px solid white;
       text-decoration: none;
       transition: .5s;
     }
-    a:hover {
-      color: $green;
+    .fa:hover {
+      transform: scale(1.2);
     }
     .fa {
       font-size: 40px;
+      transition: .5s;
     }
     .fa-hand-peace-o {
       font-size: 70px;
 
     }
-    .fa-hand-peace-o:hover{
-      color: $yellow;
-    }
 
+
+  }
+  .bg-offwhite {
+    background-color: #EFEDE7;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    margin-bottom: -200px;
   }
 
 
