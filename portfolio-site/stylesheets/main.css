@@ -22,9 +22,9 @@
 #mobile {
   width: 150px; }
 
-@media (max-width: 670px) {
-  .map {
-    display: none; } }
+@media (max-width: 500px) {
+  nav ul li {
+    padding: 0px 10px; } }
 .container {
   padding: 25px 100px;
   margin: 0px;
@@ -312,8 +312,12 @@ body {
   font-weight: 300; }
 
 p {
-  font-size: 14px;
-  line-height: 1.5; }
+  font-size: 16px;
+  line-height: 1.6; }
+
+h2 {
+  font-size: 35px;
+  font-weight: 300; }
 
 /* Header */
 header {
@@ -352,7 +356,7 @@ nav {
         color: grey;
         text-decoration: none; }
       nav ul li a:hover {
-        border-bottom: 3px solid #4C5365;
+        border-bottom: 3px solid #333;
         padding-bottom: 5px;
         text-decoration: none;
         color: grey; }
@@ -365,6 +369,8 @@ nav {
   color: #333;
   animation: bounce 2s infinite;
   margin: 0 auto; }
+  .arrow a {
+    color: #333; }
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -613,8 +619,8 @@ main {
   margin-bottom: -200px; }
 
 /* Break points at bottom so that they override code above */
-@media (max-width: 670px) {
-  .map {
-    display: none; } }
+@media (max-width: 500px) {
+  nav ul li {
+    padding: 0px 10px; } }
 
 /*# sourceMappingURL=main.css.map */

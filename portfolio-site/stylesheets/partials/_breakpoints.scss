@@ -1,5 +1,10 @@
-@media (max-width: 670px) {
+@media (max-width: 500px) {
+  nav {
+    ul {
+      li {
+        padding: 0px 10px;
+      }
+    }
+  }
 
-  .map {
-    display: none;
-  }}
+  }
