@@ -43,7 +43,10 @@
     top: 15px; } }
 @media (max-width: 401px) {
   .portfolio .mobile-display img {
-    top: 12px; } }
+    top: 12px; }
+
+  .portfolio .web-display img {
+    top: 8px; } }
 .container {
   padding: 25px 100px;
   margin: 0px;
@@ -672,6 +675,9 @@ main {
     top: 15px; } }
 @media (max-width: 401px) {
   .portfolio .mobile-display img {
-    top: 12px; } }
+    top: 12px; }
+
+  .portfolio .web-display img {
+    top: 8px; } }
 
 /*# sourceMappingURL=main.css.map */
