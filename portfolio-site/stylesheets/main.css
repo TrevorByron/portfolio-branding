@@ -22,18 +22,28 @@
 #mobile {
   width: 150px; }
 
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   nav ul li {
-    padding: 5px 10px; }
+    padding: 5px 15px; }
 
   .second-nav {
-    padding: 15px 15px 0px 15px; } }
+    padding: 15px 15px 2px 15px; }
+    .second-nav img {
+      float: none; }
+    .second-nav ul {
+      float: none; } }
 @media (max-width: 700px) {
   .background {
     margin-top: 50px; }
 
   .map {
-    display: none; } }
+    display: none; }
+
+  .portfolio .mobile-display img {
+    top: 15px; } }
+@media (max-width: 401px) {
+  .portfolio .mobile-display img {
+    top: 12px; } }
 .container {
   padding: 25px 100px;
   margin: 0px;
@@ -87,7 +97,7 @@
     flex-wrap: wrap;
     overflow: hidden;
     width: 100%;
-    padding: 5% 10% 0px 10%; }
+    padding: 5% 8% 0px 8%; }
     .project-process .part-1 .design-display {
       margin: 0 auto; }
     .project-process .part-1 .photos img {
@@ -124,7 +134,7 @@
   flex-wrap: wrap;
   background-color: #EFEDE7;
   overflow: hidden;
-  padding: 60px 1% 60px 1%;
+  padding: 8%;
   justify-content: space-around;
   text-align: left; }
   .part-2 .proposal {
@@ -213,7 +223,8 @@
   background-color: rgba(87, 187, 137, 0.85); }
 
 video {
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 300px; }
 
 .part-3 img {
   height: 500px;
@@ -229,6 +240,10 @@ video {
 .phone {
   text-align: center;
   z-index: 1; }
+
+video {
+  margin: 0 auto;
+  width: 300px; }
 
 #gr-hero {
   background: url("../images/Good-Reads-display.png") no-repeat;
@@ -636,17 +651,27 @@ main {
   margin-bottom: -200px; }
 
 /* Break points at bottom so that they override code above */
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   nav ul li {
-    padding: 5px 10px; }
+    padding: 5px 15px; }
 
   .second-nav {
-    padding: 15px 15px 0px 15px; } }
+    padding: 15px 15px 2px 15px; }
+    .second-nav img {
+      float: none; }
+    .second-nav ul {
+      float: none; } }
 @media (max-width: 700px) {
   .background {
     margin-top: 50px; }
 
   .map {
-    display: none; } }
+    display: none; }
+
+  .portfolio .mobile-display img {
+    top: 15px; } }
+@media (max-width: 401px) {
+  .portfolio .mobile-display img {
+    top: 12px; } }
 
 /*# sourceMappingURL=main.css.map */
