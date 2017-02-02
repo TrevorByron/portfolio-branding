@@ -14,7 +14,7 @@ body{
   font-weight: 300;
 }
 p {
- font-size: 16px;
+ font-size: 15px;
  line-height: 1.6;
 }
 h2 {
@@ -334,20 +334,22 @@ border-bottom: 3px solid white;
   }
 }
 
-
+.process {
+  margin-bottom: 40px;
+}
   .card-holder {
-    padding-top: 30px;
+
     display: flex;
     justify-content: center;
-    max-width: 950px;
+    max-width: 1000px;
     margin: 0 auto;
     flex-wrap: wrap;
     margin-bottom: 60px;
   }
     .card {
-      width: 20%;
-      min-width: 200px;
-    margin: 15px;
+
+     width: 200px; 
+      margin: 15px;
       text-align: center;
       transition: 1s;
       .top-icon {
@@ -360,6 +362,9 @@ border-bottom: 3px solid white;
         font-size: 18px;
         text-transform: uppercase;
       }
+      p {
+        text-align: left;
+      }
   }
 
 
@@ -368,7 +373,6 @@ border-bottom: 3px solid white;
     margin-top: 100px;
 
     .map {
-
       margin: 0 auto;
       position: relative;
       top: -80px;
@@ -376,8 +380,6 @@ border-bottom: 3px solid white;
       width: 90%;
       max-width: 1100px;
         z-index: -1;
-
-
       img {
         width: 100%;
 

@@ -318,7 +318,7 @@ body {
   font-weight: 300; }
 
 p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.6; }
 
 h2 {
@@ -543,18 +543,19 @@ main {
     width: 250px;
     border-radius: 100%; }
 
+.process {
+  margin-bottom: 40px; }
+
 .card-holder {
-  padding-top: 30px;
   display: flex;
   justify-content: center;
-  max-width: 950px;
+  max-width: 1000px;
   margin: 0 auto;
   flex-wrap: wrap;
   margin-bottom: 60px; }
 
 .card {
-  width: 20%;
-  min-width: 200px;
+  width: 200px;
   margin: 15px;
   text-align: center;
   transition: 1s; }
@@ -565,6 +566,8 @@ main {
   .card h3 {
     font-size: 18px;
     text-transform: uppercase; }
+  .card p {
+    text-align: left; }
 
 .background {
   margin-top: 100px; }
