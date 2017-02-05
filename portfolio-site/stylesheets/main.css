@@ -35,6 +35,8 @@
 @media (max-width: 700px) {
   .hero .project-info {
     padding-top: 150px; }
+    .hero .project-info h1 {
+      font-size: 40px; }
 
   .background {
     margin-top: 50px; }
@@ -258,7 +260,7 @@ video {
 
 #gr-hero {
   background: url("../images/Good-Reads-display.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top; }
 
 #gr-project-info {
@@ -356,6 +358,10 @@ h2 {
 
 .text-left {
   text-align: left; }
+
+.eightfifty {
+  max-width: 850px;
+  margin: 0 auto; }
 
 /* Header */
 header {
@@ -675,6 +681,8 @@ main {
 @media (max-width: 700px) {
   .hero .project-info {
     padding-top: 150px; }
+    .hero .project-info h1 {
+      font-size: 40px; }
 
   .background {
     margin-top: 50px; }
