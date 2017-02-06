@@ -16,6 +16,14 @@ body{
 p {
  font-size: 15px;
  line-height: 1.6;
+ a {
+   color: $green;
+   text-decoration: none;
+ }
+ a:hover {
+   text-decoration: none;
+   color: $yellow;
+ }
 }
 h2 {
   font-size: 35px;
@@ -176,7 +184,7 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 10px;
-    
+
 
 
     a {

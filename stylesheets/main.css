@@ -352,6 +352,12 @@ body {
 p {
   font-size: 15px;
   line-height: 1.6; }
+  p a {
+    color: #57BB89;
+    text-decoration: none; }
+  p a:hover {
+    text-decoration: none;
+    color: #FED586; }
 
 h2 {
   font-size: 35px;
