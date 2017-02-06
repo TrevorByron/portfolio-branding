@@ -37,6 +37,9 @@ h2 {
   max-width: 850px;
   margin: 0 auto;
 }
+.margin-top {
+  margin-top: 60px;
+}
 
 /* Header */
 header {
@@ -105,7 +108,7 @@ header {
       width: 55px;
       font-size: 40px;
       color: #333;
-      animation: bounce 2s infinite;
+      animation: bounce 3s infinite;
       margin: 0 auto;
       a {
         color: #333;

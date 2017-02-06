@@ -63,7 +63,7 @@
   height: 800px;
   z-index: -4; }
   .hero .project-info {
-    background-color: rgba(254, 213, 134, 0.85);
+    background-color: rgba(254, 213, 134, 0.95);
     height: 100%;
     color: white;
     padding-top: 250px; }
@@ -233,7 +233,7 @@
   background-position: top; }
 
 #bb-project-info {
-  background-color: rgba(87, 187, 137, 0.85); }
+  background-color: rgba(87, 187, 137, 0.95); }
 
 video {
   margin: 0 auto;
@@ -330,7 +330,7 @@ video {
   background-position: top; }
 
 #tc-project-info {
-  background-color: rgba(254, 213, 134, 0.85);
+  background-color: rgba(254, 213, 134, 0.95);
   height: 100%;
   color: white;
   padding-top: 250px; }
@@ -369,6 +369,9 @@ h2 {
 .eightfifty {
   max-width: 850px;
   margin: 0 auto; }
+
+.margin-top {
+  margin-top: 60px; }
 
 /* Header */
 header {
@@ -422,7 +425,7 @@ nav {
   width: 55px;
   font-size: 40px;
   color: #333;
-  animation: bounce 2s infinite;
+  animation: bounce 3s infinite;
   margin: 0 auto; }
   .arrow a {
     color: #333; }
