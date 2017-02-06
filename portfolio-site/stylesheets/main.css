@@ -465,8 +465,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 50px; }
+  margin-top: 10px; }
   .flex-box a {
     padding: 0px;
     text-decoration: none; }
