@@ -40,7 +40,14 @@ h2 {
 .margin-top {
   margin-top: 60px;
 }
-
+.padding-bottom {
+  padding-bottom: 60px;
+}
+.full-width {
+  width: 100%;
+  min-width: 300px;
+  margin: 10px 10px 40px 10px;
+}
 /* Header */
 header {
     text-align: center;

@@ -1,6 +1,12 @@
+
+
+#fp-hero {
+  background: url("../images/Fast-Packer-display.png") no-repeat;
+  background-size: cover;
+  background-position:top;
+}
+
 #gr-hero {
-
-
   background: url("../images/Good-Reads-display.png") no-repeat;
   background-size: cover;
   background-position:top;
@@ -8,7 +14,7 @@
 }
 
 #gr-project-info{
-     background-color: rgba(76, 83, 101, .85);
+     background-color: rgba(76, 83, 101, .95);
 }
 #no-shadow {
   box-shadow: none;

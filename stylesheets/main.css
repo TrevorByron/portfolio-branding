@@ -259,13 +259,18 @@ video {
   margin: 0 auto;
   width: 300px; }
 
+#fp-hero {
+  background: url("../images/Fast-Packer-display.png") no-repeat;
+  background-size: cover;
+  background-position: top; }
+
 #gr-hero {
   background: url("../images/Good-Reads-display.png") no-repeat;
   background-size: cover;
   background-position: top; }
 
 #gr-project-info {
-  background-color: rgba(76, 83, 101, 0.85); }
+  background-color: rgba(76, 83, 101, 0.95); }
 
 #no-shadow {
   box-shadow: none; }
@@ -372,6 +377,14 @@ h2 {
 
 .margin-top {
   margin-top: 60px; }
+
+.padding-bottom {
+  padding-bottom: 60px; }
+
+.full-width {
+  width: 100%;
+  min-width: 300px;
+  margin: 10px 10px 40px 10px; }
 
 /* Header */
 header {
