@@ -307,7 +307,7 @@ video {
     font-size: 20px; }
 
 .view-site:hover {
-  transform: scale(1.1); }
+  transform: scale(1.05); }
 
 .centered {
   min-width: 300px;
