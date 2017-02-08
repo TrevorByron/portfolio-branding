@@ -205,14 +205,14 @@ main {
   }
 
     .design-display {
-      width: 200px;
-      height:70px;
+max-width: 250px;
       text-align: center;
-
-      padding-top: 35px;
+      padding: 10px 30px;
       text-transform: uppercase;
       color: white;
+      border-radius: 100px;
       transition: .5s;
+      background-color: $green;
       h3{
         font-size: 20px;
             font-weight: 300;
@@ -222,31 +222,40 @@ main {
     }
 .web {
 
-  color: #333;
-   border-bottom: 3px solid #d67f48;
+  color: white;
+  //  border-bottom: 3px solid #d67f48;
 
+}
+
+.blue {
+  background-color: #F47D31;
+}
+.green {
+  background-color: $green;
+}
+.yellow {
+  background-color: $yellow;
 }
 .mobile {
 
  color: #333;
- border-bottom: 3px solid #45936c;
+ // border-bottom: 3px solid #45936c;
 }
 .paper {
 
   color: #333;
-  border-bottom: 3px solid #dbb46d;
+  // border-bottom: 3px solid #dbb46d;
 }
 .wood {
 
-  color: #333;
-border-bottom: 3px solid  #444B5D;
+  color: white;
+// border-bottom: 3px solid  #444B5D;
 }
 
 
 .design-display:hover {
 
-color: #dbb46d;
-border-bottom: 3px solid white;
+transform: scale(1.05)
 
 }
 .portfolio-container {
@@ -343,6 +352,7 @@ border-bottom: 3px solid white;
     p {
       margin-top: 20px;
       font-size: 18px;
+      margin-bottom: 30px;
     }
       .design-display{
       margin: 0 auto;
