@@ -347,12 +347,14 @@ video {
 #tc-part-2 video {
   box-shadow: 1px 2px 6px rgba(33, 33, 33, 0.5); }
 
-#tc-part-3 .photos {
-  z-index: 2; }
-#tc-part-3 .words {
-  text-align: left; }
-#tc-part-3 video {
-  box-shadow: 1px 2px 6px rgba(33, 33, 33, 0.2); }
+#tc-part-3 {
+  padding: 90px 10%; }
+  #tc-part-3 .photos {
+    z-index: 2; }
+  #tc-part-3 .words {
+    text-align: left; }
+  #tc-part-3 video {
+    box-shadow: 1px 2px 6px rgba(33, 33, 33, 0.2); }
 
 body {
   font-family: 'Roboto', sans-serif;
