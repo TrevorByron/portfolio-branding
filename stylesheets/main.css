@@ -232,7 +232,7 @@
 
 #bb-hero {
   background: url("../images/Bucket-budget-display.png") no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top; }
 
 #bb-project-info {
@@ -335,7 +335,7 @@ video {
 
 #tc-hero {
   background: url("../images/Team-captain-display.png") no-repeat;
-  background-size: contain;
+  background-size: auto;
   background-position: top; }
 
 #tc-project-info {
