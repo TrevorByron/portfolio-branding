@@ -689,7 +689,8 @@ main {
     text-decoration: none;
     transition: .5s; }
   .Contact .fa:hover {
-    transform: scale(1.2); }
+    transform: scale(1.2);
+    text-shadow: 1px 1px 40px rgba(33, 33, 33, 0.4); }
   .Contact .fa {
     font-size: 40px;
     transition: .5s; }
