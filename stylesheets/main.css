@@ -634,7 +634,7 @@ main {
   margin-bottom: 60px; }
 
 .card {
-  width: 150px;
+  width: 200px;
   margin: 20px;
   text-align: center;
   transition: 1s; }
@@ -674,6 +674,8 @@ main {
   background-color: #57BB89;
   color: white;
   text-shadow: 1px 1px 1px rgba(33, 33, 33, 0.2); }
+  .Contact .card {
+    width: 150px; }
   .Contact h4 {
     font-weight: 300;
     font-style: italic;
