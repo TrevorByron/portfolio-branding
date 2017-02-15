@@ -27,6 +27,7 @@ sr.reveal('.card1', {duration: 500, scale: 1});
 sr.reveal('.card2', {duration: 500, scale: 1, delay: 500});
 sr.reveal('.card3', {duration: 500, scale: 1, delay: 1000});
 sr.reveal('.card4', {duration: 500, scale: 1, delay: 1500});
+sr.reveal('.card5', {duration: 500, scale: 1, delay: 2000});
 sr.reveal('.boo', {duration: 1000, scale: 1, origin: 'top',distance: '30px',});
 
 // This controls the header, making it appear once viewer has scrolled past pixel 479

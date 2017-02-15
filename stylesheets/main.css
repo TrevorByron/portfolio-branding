@@ -628,13 +628,13 @@ main {
 .card-holder {
   display: flex;
   justify-content: center;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
   margin-bottom: 60px; }
 
 .card {
-  width: 200px;
+  width: 150px;
   margin: 20px;
   text-align: center;
   transition: 1s; }
