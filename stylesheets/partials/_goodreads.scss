@@ -47,7 +47,9 @@
   padding: 10px 30px;
   color: white;
   transition: .3s;
-  border-radius: 100px;
+  border-radius: 10px;
+  border-bottom: 2px solid $darkgreen;
+  border-top: 2px solid $green;
   h3 {
     margin: 0px;
     color: white;
@@ -58,8 +60,11 @@
     margin-left: 15px;
   }
 }
-.view-site:hover {
-  transform: scale(1.05);
+
+.view-site:active {
+  border-top: 2px solid $darkgreen;
+    border-bottom: 2px solid $green;
+
 }
 
 .centered {

@@ -210,9 +210,12 @@ main {
       padding: 10px 30px;
       text-transform: uppercase;
       color: white;
-      border-radius: 100px;
-      transition: .5s;
+      border-radius: 10px;
+      transition: .2s;
       background-color: $green;
+      border-bottom: 2px solid $darkgreen;
+      border-top: 2px solid $green;
+
       h3{
         font-size: 20px;
             font-weight: 300;
@@ -253,9 +256,10 @@ main {
 }
 
 
-.design-display:hover {
+.design-display:active{
 
-transform: scale(1.05)
+border-bottom: 2px solid $green;
+border-top: 2px solid $darkgreen;
 
 }
 .portfolio-container {
