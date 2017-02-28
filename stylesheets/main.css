@@ -310,9 +310,13 @@ video {
   .view-site .fa-arrow-right {
     margin-left: 15px; }
 
+.view-site:hover {
+  background-color: #6bce9c;
+  border-top: 2px solid #6bce9c; }
+
 .view-site:active {
   border-top: 2px solid #388c62;
-  border-bottom: 2px solid #57BB89; }
+  border-bottom: 2px solid #6bce9c; }
 
 .centered {
   min-width: 300px;
@@ -539,8 +543,12 @@ main {
 .wood {
   color: white; }
 
+.design-display:hover {
+  background-color: #6bce9c;
+  border-top: 2px solid #6bce9c; }
+
 .design-display:active {
-  border-bottom: 2px solid #57BB89;
+  border-bottom: 2px solid #6bce9c;
   border-top: 2px solid #388c62; }
 
 .portfolio {
@@ -614,6 +622,10 @@ main {
       margin-bottom: 30px; }
     .portfolio .description .design-display {
       margin: 0 auto; }
+
+#everything {
+  max-width: 650px;
+  top: 40px; }
 
 .about {
   padding-top: 60px;

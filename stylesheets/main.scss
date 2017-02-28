@@ -254,11 +254,14 @@ main {
   color: white;
 // border-bottom: 3px solid  #444B5D;
 }
-
+.design-display:hover {
+  background-color: $lightgreen;
+  border-top: 2px solid $lightgreen;
+}
 
 .design-display:active{
 
-border-bottom: 2px solid $green;
+border-bottom: 2px solid $lightgreen;
 border-top: 2px solid $darkgreen;
 
 }
@@ -362,6 +365,10 @@ border-top: 2px solid $darkgreen;
       margin: 0 auto;
     }
   }
+}
+#everything {
+  max-width: 650px;
+  top: 40px;
 }
 
 .about {

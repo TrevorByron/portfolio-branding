@@ -60,10 +60,15 @@
     margin-left: 15px;
   }
 }
+.view-site:hover {
+  background-color: $lightgreen;
+  border-top: 2px solid $lightgreen;
+
+}
 
 .view-site:active {
   border-top: 2px solid $darkgreen;
-    border-bottom: 2px solid $green;
+    border-bottom: 2px solid $lightgreen;
 
 }
 
