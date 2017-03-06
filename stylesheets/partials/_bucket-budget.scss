@@ -5,9 +5,19 @@ background-size: cover;
 background-position:top;
 }
 
+
 #bb-project-info{
      background-color: rgba(87, 187, 137, .95);
 }
+#ee-hero {
+  background: url("../images/Everything-Else.png") no-repeat;
+  background-size: cover;
+  background-position:bottom;
+}
+#ee-project-info{
+     background-color: rgba(87, 187, 137, .75);
+}
+
 video{
   margin: 0 auto;
   width: 300px;
