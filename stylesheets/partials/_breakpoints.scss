@@ -21,7 +21,9 @@
   }
 
 @media (max-width: 700px) {
-
+  .card {
+    width: 275px;
+  }
   .hero .project-info {
     padding-top: 150px;
     h1 {

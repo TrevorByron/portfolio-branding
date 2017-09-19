@@ -1,17 +1,29 @@
 #bb-hero {
 
 background: url("../images/Bucket-budget-display.png") no-repeat;
-background-size: contain;
+background-size: cover;
 background-position:top;
 }
 
+
 #bb-project-info{
-     background-color: rgba(87, 187, 137, .85);
+  background: linear-gradient(to right, #191654, #A682FF);
+  opacity: .96;}
+#ee-hero {
+  background: url("../images/Everything-Else.png") no-repeat;
+  background-size: cover;
+  background-position:bottom;
 }
+#ee-project-info{
+     background-color: rgba(87, 187, 137, .75);
+}
+
 video{
   margin: 0 auto;
   width: 300px;
   height: 532px;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(36, 50, 66, 0.15)
 }
 .part-3 {
   img {
@@ -22,11 +34,11 @@ margin: 10px;
 }
 
 #bb {
-background-color: $yellow;
-}
+    background: linear-gradient(to top, #EDB544, #FED586);
+  }
 
 #bb-angle {
-  background-color: $yellow;
+    background: #EDB544;
 }
 .phone {
   text-align: center;

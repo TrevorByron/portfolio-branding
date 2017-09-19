@@ -1,0 +1,133 @@
+@import "colors";
+
+.container {
+  width:90%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+
+input[type="radio"] {
+    display:none;
+}
+label {
+
+  max-width: 180px;
+  background-color: $green;
+  border-bottom: 2px solid $darkgreen;
+  border-top: 2px solid $green;
+  border-radius: 5px;
+  color: white;
+  padding:0.5%;
+  margin:0.5%;
+  cursor:pointer;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  transition: .5s;
+  min-width: 155px;
+  text-transform: uppercase;
+  text-align: center;
+
+
+}
+label:hover {
+    background-color:$lightgreen;
+    border-top: 2px solid $lightgreen;
+}
+.breaker {
+  width: 100%;
+}
+
+.tile {
+  width:300px;
+  margin:1%;
+  margin-top: 30px;
+
+}
+.css-filter {
+  margin-bottom: 60px;
+  .route-item {
+    margin: 0px;
+  }
+}
+// Gear-filtered
+
+input[type="radio"][id="packs"]:checked + label {
+  background-color:$green;
+  border-top: 2px solid $darkgreen;
+  border-bottom: $green;
+}
+input[type="radio"][id="packs"]:checked ~ .camping, input[type="radio"][id="packs"]:checked ~ .foodandh20 {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+  display: none;
+}
+input[type="radio"][id="camping"]:checked + label {
+  background-color:$green;
+  border-top: 2px solid $darkgreen;
+  border-bottom: $green;
+}
+input[type="radio"][id="camping"]:checked ~ .packs, input[type="radio"][id="camping"]:checked ~ .foodandh20 {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+    display: none;
+}
+input[type="radio"][id="foodandh20"]:checked + label {
+  background-color:$green;
+  border-top: 2px solid $darkgreen;
+  border-bottom: $green;
+}
+input[type="radio"][id="foodandh20"]:checked ~ .packs, input[type="radio"][id="foodandh20"]:checked ~ .camping {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+    display: none;
+}
+
+
+
+
+
+
+
+
+.box{
+  font-family: 'Lato', sans-serif;
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+  overflow: hidden;
+
+
+}
+.box:hover h3 {
+  background-color: rgba(033, 033, 033, .0);
+  text-shadow: none;
+  color: rgba(255, 255, 255, .5);
+  text-shadow: 1px 1px 1px rgba(033, 033, 033, 0);
+  }
+
+  .background-grey-box {
+  margin: 0;
+  padding: 118px 15%;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(033, 033, 033, .6);
+  background-color: rgba(033, 033, 033, .8);
+  height: 300px;
+  transition: .5s;
+  color: white
+}
