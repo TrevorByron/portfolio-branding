@@ -14,7 +14,10 @@
 }
 
 #gr-project-info{
-     background-color: rgba(76, 83, 101, .95);
+     background: rgba(76, 83, 101, .95);;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     opacity: .96
 }
 #no-shadow {
   box-shadow: none;
@@ -93,7 +96,8 @@
   img{
     width: 100%;
     border-radius: 3px;
-    box-shadow: 1px 1px 1px rgba(033, 033, 033, .1)
+    box-shadow: 0 1px 2px 0 rgba(36, 50, 66, 0.15);
+
   }
 }
 .icon {

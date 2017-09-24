@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="371px" height="205px" viewBox="0 0 371 205" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Pig Hanglider</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-10.6%" y="-11.4%" width="121.2%" height="145.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="17" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.06 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Characters" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-410.000000, -956.000000)">
+            <g id="Pig-Hanglider" filter="url(#filter-1)" transform="translate(426.000000, 957.000000)">
+                <g id="Pig" transform="translate(131.000000, 8.000000)">
+                    <path d="M89.5,157.5 L143.5,105.5" id="Line" stroke="#532D6D" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M0,0 C74.6666667,41.3333333 120,80.3333333 136,117" id="Path-30" stroke="#532D6D" stroke-width="5" stroke-linecap="round"></path>
+                    <path d="M110.656028,39.7552419 C99.3226949,23.7552419 87.3226949,16.7552419 74.6560283,18.7552419 C75.6560283,37.7552419 85.4774573,40.0677422 98.6560283,47.7552419" id="Path-19" stroke="#532D6D" fill="#EAA8DC" transform="translate(92.656028, 33.088575) rotate(12.000000) translate(-92.656028, -33.088575) "></path>
+                    <ellipse id="Oval-6" stroke="#532D6D" fill="#EECC52" cx="120.5" cy="63.5" rx="6.5" ry="15.5"></ellipse>
+                    <ellipse id="Oval-5" stroke="#532D6D" fill="#33AAF3" cx="121" cy="64" rx="4" ry="10"></ellipse>
+                    <path d="M30.5350877,128.151061 C-8.79824561,105.484395 -10.1315789,77.8177278 26.5350877,45.1510612 C81.5350877,-3.84893882 124.535088,50.1510612 121.535088,64.1510612 C119.535088,73.4843945 125.611488,76.8529586 139.764289,74.2567536 C140.944821,91.5196253 137.535088,102.151061 129.535088,106.151061 C117.535088,112.151061 116.535088,104.151061 116.535088,105.151061 C120.535088,108.151061 106.535088,121.151061 95.5350877,121.151061 C90.5350877,126.151061 88.5997619,131.118724 82.5350877,134.151061 C80.5350877,135.151061 75.8262453,135.384114 75.5350877,135.151061 C75.0478213,134.761037 77.0312264,132.280888 79.5350877,129.151061 C77.5350877,129.151061 79.5350877,132.151061 71.5350877,133.151061 C70.5350877,130.151061 73.5350877,124.151061 73.5350877,123.151061 C72.8684211,123.817728 71.9776525,126.151061 70.862782,130.151061 C62.6443191,131.484395 57.2017544,131.817728 54.5350877,131.151061 C51.8684211,130.484395 50.8684211,129.151061 51.5350877,127.151061 C52.8684211,131.817728 53.5350877,134.817728 53.5350877,136.151061 C51.5350877,136.151061 49.2017544,135.484395 46.5350877,134.151061 C46.5350877,136.151061 46.2017544,138.151061 45.5350877,140.151061 C41.5350877,139.484395 36.5350877,135.484395 30.5350877,128.151061 Z" id="Path-20" stroke="#532D6D" fill="#F7D0EF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <ellipse id="Oval-7" stroke="#532D6D" fill="#F7D0EF" transform="translate(135.152452, 89.433605) rotate(18.000000) translate(-135.152452, -89.433605) " cx="135.152452" cy="89.4336047" rx="4.48227389" ry="15.8229355"></ellipse>
+                    <ellipse id="Oval-7" stroke="#532D6D" fill="#B659A3" transform="translate(133.577192, 90.366611) rotate(18.000000) translate(-133.577192, -90.366611) " cx="133.577192" cy="90.3666108" rx="1" ry="6.5"></ellipse>
+                    <ellipse id="Oval-7" stroke="#532D6D" fill="#B659A3" transform="translate(136.500000, 90.681867) rotate(18.000000) translate(-136.500000, -90.681867) " cx="136.5" cy="90.6818674" rx="1" ry="6.17631946"></ellipse>
+                    <path d="M116,64.2817351 C118,64.2817351 119,64.2817351 120,63.2817351 C121,62.2817351 120.643179,59.0328614 121,60.2817351 C122,63.2817351 122,69.2817351 121,70.2817351 C121,70 118.801909,68.7471292 118,69.2817351 C117.198091,69.8163409 115.441503,75.3854937 115,74.2817351 C117,69.2817351 116,65.2817351 116,64.2817351 Z" id="Path-26" fill="#532D6D"></path>
+                    <ellipse id="Oval-6" stroke="#532D6D" fill="#EECC52" cx="108.5" cy="67" rx="7.5" ry="18"></ellipse>
+                    <ellipse id="Oval-5" stroke="#532D6D" fill="#33AAF3" cx="108.5" cy="67.5" rx="4.5" ry="11.5"></ellipse>
+                    <path d="M53,32.5364956 C52,38.5364956 62,60.5364956 100,66.5364956 C100,68.5364956 101,75.5364956 101,75.5364956 C96,75.5364956 50,67.5364956 49,35.5364956 C49.5696125,26.2367535 54,31.5364956 53,32.5364956 Z" id="Path-25" stroke="#532D6D" fill="#532D6D"></path>
+                    <path d="M84.8705588,41.1844283 C73.5372255,25.1844283 61.5372255,18.1844283 48.8705588,20.1844283 C49.8705588,39.1844283 59.6919878,41.4969286 72.8705588,49.1844283" id="Path-19" stroke="#532D6D" fill="#F7D0EF"></path>
+                    <path d="M93,85.5 C99.6666667,80.8333333 106.666667,80.8333333 114,85.5" id="Path-23" stroke="#532D6D" fill="#F7D0EF"></path>
+                    <path d="M108,97 C110.666667,94.3333333 112,92.6666667 112,92 C112,91 108,100 116,105" id="Path-24" stroke="#532D6D" stroke-linecap="round"></path>
+                    <path d="M77.8705588,41.851095 C72.5372255,31.851095 67.8705588,26.851095 63.8705588,26.851095 C59.8705588,26.851095 56.2038922,26.1844283 52.8705588,24.851095 C56.8705588,34.851095 63.5372255,41.5177616 72.8705588,44.851095" id="Path-27" stroke="#532D6D" fill="#B659A3"></path>
+                </g>
+                <polygon id="Path-28" stroke="#532D6D" stroke-width="2" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="58 24 65 52 308 13"></polygon>
+                <path d="M229,162 C168.333333,128.666667 135,85 129,31" id="Path-29" stroke="#532D6D" stroke-width="5" stroke-linecap="round"></path>
+                <path d="M0,45 C28.3515999,31.086512 46.0182665,21.3246073 53,15.7142857 C59.9817335,10.1039642 60.9817335,4.86586893 56,0 L339,11.4285714 L0,45 Z" id="Path-31" stroke="#532D6D" stroke-width="2" fill="#FFFFFF" stroke-linejoin="round"></path>
+                <path d="M324,12 L67.5,12.5" id="Line-6" stroke="#856794" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

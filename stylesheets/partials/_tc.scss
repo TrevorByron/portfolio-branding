@@ -6,9 +6,13 @@ background-position:top;
 }
 
 #tc-project-info {
-  background-color: rgba(254, 213, 134, .85);
+
   height: 100%;
   color: white;
+  background-color: #FED586;
+background: -webkit-linear-gradient(to right, #EDB544, #FED586);
+background: linear-gradient(to right, #EDB544, #FED586);
+opacity: .96;
 
 }
 #tc-part-2{
@@ -20,6 +24,9 @@ background-position:top;
 
 #tc-part-3 {
     padding: 90px 10%;
+    background: linear-gradient(to top, #191654, #586BA4);
+    border-bottom: 1px solid rgba(0,0,0, .12);
+
   .photos {
     z-index: 2;
   }
