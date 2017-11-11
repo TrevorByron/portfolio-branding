@@ -60,8 +60,9 @@ header {
   text-align: center;
   overflow: hidden;
   z-index: -1;
-  padding-top: 60px;
-  padding-bottom: 100px;
+  padding-top: 13vh;
+  padding-bottom:  13vh;
+  min-height: 95vh;
 
   img {
     width: 100%;
@@ -320,8 +321,8 @@ main {
     display: flex;
     width: 100%;
     background-color: #FED586;
-    background: -webkit-linear-gradient(to right, #EDB544, #FED586);
-    background: linear-gradient(to right, #EDB544, #FED586);
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
+    background: linear-gradient(to right,#ffa751, #ffe259);
 
     img {
       width: 95%;
@@ -340,11 +341,12 @@ main {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
+
   #Team-captain {
     padding-top: 80px;
     background-color: #FED586;
-    background: -webkit-linear-gradient(to right, #EDB544, #FED586);
-    background: linear-gradient(to right, #EDB544, #FED586);
+    background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
+    background: linear-gradient(to right,#ffa751, #ffe259);
   }
 
   .flex-box {
@@ -384,6 +386,9 @@ main {
     padding-bottom: 150px;
     padding-top: 100px;
     text-align: left;
+    li {
+      font-size: 20px;
+    }
 
     p {
       margin-top: 20px;
@@ -544,6 +549,7 @@ main {
   margin-bottom: -200px;
 }
 // Pig flying
+
 #pig2 {
   width: 300px;
   animation: 3.5s 1 cubic-bezier(0.02, 0.01, 0.21, 1);
